@@ -27,7 +27,7 @@ header{
 #sidebar{
     display: grid;
     grid-template-columns: 80%;
-    grid-template-rows: repeat(4, 150px);
+    grid-template-rows: repeat(auto-fit, 150px);
     justify-content: center;
     background-color: rgb(200, 13, 13);
     padding: 10px 0px;
@@ -82,8 +82,8 @@ ul a{
     display:grid; 
     justify-content: center;
     background-color: rgb(123, 208, 208);
-    grid-template-columns: repeat(auto-fill, clamp(200px, 100px, 120px));
-    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: repeat(auto-fit, clamp(200px, 100px, 120px));
+    grid-template-rows: repeat(auto-fit, 1fr);
     padding: 12px;
     gap: 13px;
     grid-row: 3 / 24;
